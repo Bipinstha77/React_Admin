@@ -1,0 +1,17 @@
+/* src/styles/themes.css */
+:root[data-theme="light"] {
+    --background: #ffffff;
+    --text: #000000;
+    --primary: #007bff;
+  }
+  
+  :root[data-theme="dark"] {
+    --background: #1a1a1a;
+    --text: #ffffff;
+    --primary: #4dabf7;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--text);
+  }
